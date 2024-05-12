@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica discreta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="notisMD1.css">
+</head>
+
+
+<div class="container-fluid bg-dark-gray p-5">
+    <h1 class="text-center text-white mb-5">Matematica discreta</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label class="label-white" for="txt1">Labo 1</label>
+                    <input type="text" class="form-control" id="txt1" oninput="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt2">Labo 2</label>
+                    <input type="text" class="form-control" id="txt2" oninput="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt3">Labo 3</label>
+                    <input type="text" class="form-control" id="txt3" oninput="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt4">Primer parcial</label>
+                    <input type="text" class="form-control" id="txt4" oninput="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt5">Segundo parcial</label>
+                    <input type="text" class="form-control" id="txt5" oninput="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt6">Evaluación final</label>
+                    <input type="text" class="form-control" id="txt6" oninput="calcularPromedio()">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 mt-md-0 mt-4">
+            <div class="result-container p-3 bg-dark">
+                <h4 class="text-white">Promedio:</h4>
+                <h3 id="txtpro" class="text-center text-white">0</h3>
+                <h4 class="text-white">Estado:</h4>
+                <h3 id="txtest" class="text-center text-white">Reprobado</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="NotasMD1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.input-container {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.input-container input {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+
+.button-container button:hover {
+  background-color: #3b3b3b;
+}
+
+.result-container {
+  margin-top: 30px;
+}
+
+.result-container h2 {
+  font-size: 1.6em;
+}
+
+
+.bg-light-gray {
+  background-color: #000000;
+}
+
+.result-container {
+  border-radius: 10px;
+}
+
+
+.text-white {
+  color: white; 
+}
+
+
+
+
+
+
+.bg-light-gray {
+  background-color: #cccccc; 
+}
+
+.result-container {
+  border-radius: 10px;
+}
+
+input {
+  background-color: #666666; 
+  color: white; 
+}
+
+input:focus {
+  background-color: #999999;
+}
+
+.text-white {
+  color: white; 
+}
+
+.label-white {
+  color: white;
+  padding: 8px; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+
+
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precálculo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="notisPRECALCULO.css">
+</head>
+<body class="bg-dark">
+
+<div class="container-fluid bg-dark-gray p-5">
+    <h1 class="text-center text-white mb-5">Precálculo</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label class="label-white" for="txt1">Corto 1</label>
+                    <input type="text" class="form-control input-size" id="txt1" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt2">Corto 2</label>
+                    <input type="text" class="form-control input-size" id="txt2" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt3">Corto 3</label>
+                    <input type="text" class="form-control input-size" id="txt3" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt4">Tarea 1</label>
+                    <input type="text" class="form-control input-size" id="txt4" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt5">Tarea 2</label>
+                    <input type="text" class="form-control input-size" id="txt5" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt6">Tarea 3</label>
+                    <input type="text" class="form-control input-size" id="txt6" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt7">Parcial 1</label>
+                    <input type="text" class="form-control input-size" id="txt7" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt8">Parcial 2</label>
+                    <input type="text" class="form-control input-size" id="txt8" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label class="label-white" for="txt9">Evaluación final</label>
+                    <input type="text" class="form-control input-size" id="txt9" onblur="calcularPromedio()">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 mt-md-0 mt-4">
+            <div class="result-container p-3 bg-dark">
+                <h4 class="text-white">Promedio:</h4>
+                <h3 id="txtpro" class="text-center text-white">0</h3>
+                <h4 class="text-white">Estado:</h4>
+                <h3 id="txtest" class="text-center text-white">Reprobado</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="NotasPRECALCULO.js"></script>
+
+</body>
+</html>

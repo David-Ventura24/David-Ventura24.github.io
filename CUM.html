@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUM general</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="notisCUM.css">
+</head>
+<body class="bg-dark text-white">
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="mb-4">CUM general</h1>
+            <form>
+                <div class="form-group">
+                    <label for="txt1">Matemática discreta 1</label>
+                    <input type="text" class="form-control" id="txt1" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label for="txt2">Fundamentos de programación</label>
+                    <input type="text" class="form-control" id="txt2" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label for="txt3">Elementos para el estudio de las CC y la Tec</label>
+                    <input type="text" class="form-control" id="txt3" onblur="calcularPromedio()">
+                </div>
+                <div class="form-group">
+                    <label for="txt4">Precálculo</label>
+                    <input type="text" class="form-control" id="txt4" onblur="calcularPromedio()">
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <div class="result-container p-4">
+                <h4 class="mb-4">Promedio:</h4>
+                <h2 id="txtpro" class="text-center">0</h2>
+                <h4 class="mt-4 mb-3">Estado:</h4>
+                <h2 id="txtest" class="text-center">Reprobado</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="NotasCUM.js"></script>
+
+</body>
+</html>
